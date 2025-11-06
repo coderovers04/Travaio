@@ -10,7 +10,7 @@ const contactRoutes = require('./routes/contact');
 const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
-  'https://travaio-xi.vercel.app' // Replace with your Vercel app URL
+  'https://travaio-travel.vercel.app' // Replace with your Vercel app URL
 ];
 
 app.use(cors({
